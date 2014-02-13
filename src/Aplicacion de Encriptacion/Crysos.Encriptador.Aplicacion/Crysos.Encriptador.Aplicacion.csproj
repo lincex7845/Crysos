@@ -29,7 +29,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -94,7 +94,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Crysos.Encriptador.GeneradorLLaves\Crysos.Encriptador.Funcionalidades.csproj">
+    <ProjectReference Include="..\Crysos.Encriptador.Funcionalidades\Crysos.Encriptador.Funcionalidades.csproj">
       <Project>{9d237fff-e58a-4910-aa27-6d72c03d0d40}</Project>
       <Name>Crysos.Encriptador.Funcionalidades</Name>
     </ProjectReference>

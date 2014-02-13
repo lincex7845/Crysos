@@ -34,13 +34,13 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Crysos.Encriptador.GeneradorLLaves">
-      <HintPath>..\..\..\Aplicacion de Encriptacion\Crysos.Encriptador.GeneradorLLaves\bin\Debug\Crysos.Encriptador.GeneradorLLaves.dll</HintPath>
+    <Reference Include="Crysos.Encriptador.Funcionalidades">
+      <HintPath>..\..\..\Aplicacion de Encriptacion\Crysos.Encriptador.Funcionalidades\bin\Debug\Crysos.Encriptador.Funcionalidades.dll</HintPath>
     </Reference>
     <Reference Include="CsvHelper">
       <HintPath>..\packages\CsvHelper.2.3.0\lib\net40-client\CsvHelper.dll</HintPath>
@@ -68,14 +68,14 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Crysos.svc" />
+    <Content Include="Service.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Crysos.svc.cs">
-      <DependentUpon>Crysos.svc</DependentUpon>
+    <Compile Include="Service.svc.cs">
+      <DependentUpon>Service.svc</DependentUpon>
     </Compile>
-    <Compile Include="ICrysos.cs" />
+    <Compile Include="IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

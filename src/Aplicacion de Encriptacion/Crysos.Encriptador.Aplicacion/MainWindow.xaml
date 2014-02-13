@@ -3,9 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Crysos" Height="400" Width="600">
     <Grid>
-        <Label Content="Llave pública:" HorizontalAlignment="Left" Margin="20,35,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="TextLlavePublica" HorizontalAlignment="Right" Height="50" Margin="0,35,160,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" Background="#f3f3f3"/>
-        <Button x:Name="BtnGenerarLlavePublica" Content="Generar llave pública" HorizontalAlignment="Left" Margin="460,35,0,0" VerticalAlignment="Top" Width="122" Height="50" Click="BtnGenerarLlavePublica_Click"/>
+        <Button x:Name="BtnGenerarLlaves" Content="Generar llaves" HorizontalAlignment="Center" Margin="0,0,11,260" VerticalAlignment="Center" Width="122" Height="50" Click="BtnGenerarLlaves_Click"/>
         <TabControl HorizontalAlignment="Left" Height="260" Margin="10,95,0,0" VerticalAlignment="Top" Width="570">
             <TabItem Header="Encriptar">
                 <Grid Background="Transparent">

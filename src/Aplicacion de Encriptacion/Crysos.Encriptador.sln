@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crysos.Encriptador.Funcionalidades", "Crysos.Encriptador.GeneradorLLaves\Crysos.Encriptador.Funcionalidades.csproj", "{9D237FFF-E58A-4910-AA27-6D72C03D0D40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crysos.Encriptador.Funcionalidades", "Crysos.Encriptador.Funcionalidades\Crysos.Encriptador.Funcionalidades.csproj", "{9D237FFF-E58A-4910-AA27-6D72C03D0D40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crysos.Encriptador.Aplicacion", "Crysos.Encriptador.Aplicacion\Crysos.Encriptador.Aplicacion.csproj", "{DE8DB455-B9A6-4D24-9205-3ACD8AD200C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crysos.PruebasUnitarias", "Crysos.PruebasUnitarias\Crysos.PruebasUnitarias.csproj", "{549EE0C1-BE41-49B2-A2A4-7F28873A3E6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{DE8DB455-B9A6-4D24-9205-3ACD8AD200C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE8DB455-B9A6-4D24-9205-3ACD8AD200C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE8DB455-B9A6-4D24-9205-3ACD8AD200C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549EE0C1-BE41-49B2-A2A4-7F28873A3E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549EE0C1-BE41-49B2-A2A4-7F28873A3E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549EE0C1-BE41-49B2-A2A4-7F28873A3E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549EE0C1-BE41-49B2-A2A4-7F28873A3E6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
